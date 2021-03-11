@@ -34,6 +34,6 @@ steps:
     WebAppName: 'reacttothis'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     RuntimeStack: 'NODE|12-lts'
-    StartupCommand: 'npm install; npm install -g serve; server build'
+    StartupCommand: 'npm install; npm install -g serve; serve build'
 
 
